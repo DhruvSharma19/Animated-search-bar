@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg,blue,lightblue);
+}
+
+.searchbar.active{
+    width: 430px;
+    height: 60px;
+    position: relative;
+    border-radius: 30px;
+    background-color: white;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+
+.input.active{
+    height: 100%;
+    width: 350px;
+    border-radius: 30px;
+    outline: 0px;
+    border: none;
+    padding: 0px 60px 0px 20px;
+    font-size: 20px;
+
+}
+
+.searchicon.active{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px ;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    transform: rotate(360deg);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+
+
+
+}
+
+.cancelicon.active{
+    position: absolute;
+    top: 5px;
+    right: -15%;
+    height: 50px ;
+    width: 50px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+
+
+    
+}
+
+
+.searchbar{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+
+
+}
+
+.input{
+    display: none;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+
+}
+
+.searchicon{
+    width: 50xp;
+    height: 50px;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    transform: rotate(360deg);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+
+.cancelicon{
+    display: none;
+    transform: rotate(360deg);
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
